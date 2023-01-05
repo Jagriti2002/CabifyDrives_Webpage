@@ -1,0 +1,113 @@
+@media (max-width:991px) {
+    /* custom css */
+    section{
+        padding:30px 0
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled{
+        height:auto;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color:var(--bg-black);
+        padding-bottom:15px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+    /* banner wrapper */
+    .banner-wrapper{
+        padding: 100px 0;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }
+
+    /* Business */
+    .business_wrapper .business-img img{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    /* Driver */
+    .driver_wrapper .subtitle{
+        margin-left: -10px;
+    }
+    .driver_wrapper h2{
+        margin-left: -10px;
+    }
+    .driver_wrapper p{
+        margin-left: -10px;
+    }
+    .driver_wrapper .main-btn{
+        margin-left: -10px;
+    }
+    .driver_wrapper .driver-img img{
+        margin-top: 50px;
+    }
+
+    /* Rider */
+    .rider_wrapper .rider-img img{
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:767px){
+
+    /* custom css */
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+       font-size: 13px;
+    }    
+}
+
+@media (max-width:360px){
+   /* Business */
+   .business_wrapper .business-img img{
+        height: 250px;
+        width: 300px;
+    } 
+
+    /* Driver */
+    .driver_wrapper .driver-img img{
+        height: 250px;
+        width: 300px;
+    }
+
+    /* Rider */
+    .rider_wrapper .rider-img img{
+        height: 250px;
+        width: 300px;
+    }
+
+}
